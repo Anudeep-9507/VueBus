@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(300deg, #712cf9, #efeaeb, rgb(68, 123, 232));
+  background-size: 180% 180%;
+  margin: 0;
+  padding: 0;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.heading{
+  font-size: 5rem;
+
+}
+.lead{
+  font-size: 1.5rem;
+  font-weight:450;
+}
+.bus_logo{
+  margin-right:30px ;
+}
+.bus_logo{
+  margin-top: 18px;
+}
+.bus_logo:hover{
+  height: 45px;
+  transition: 0.3s;
+}
+.btn:hover{
+  height:59px ;
+  transition: 0.6s;
+}
+.preview{
+  margin: 10px;
+}
+.middle_logo:hover{
+  height: 59px;
+  width: 75px;
+  transition: 0.3s;
+}
