@@ -18,7 +18,7 @@ body {
   }
 }
 .heading{
-  font-size: 5rem;
+  font-size: 3.6rem;
 
 }
 .lead{
@@ -32,12 +32,12 @@ body {
   margin-top: 18px;
 }
 .bus_logo:hover{
-  height: 45px;
-  transition: 0.3s;
+  height: 42px;
+  transition: 0.5s;
 }
 .btn:hover{
-  height:59px ;
-  transition: 0.6s;
+  height:58px ;
+  transition: 0.8s;
 }
 .preview{
   margin: 10px;
@@ -46,4 +46,11 @@ body {
   height: 59px;
   width: 75px;
   transition: 0.3s;
+}
+.booknow:hover{
+  height: 39px;
+  transition:8ms;
+}
+.booknow{
+  text-decoration: none;
 }
